@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/bonobono/static/css/main.5f361e03.chunk.css",
+    "main.js": "/bonobono/static/js/main.617b571d.chunk.js",
+    "main.js.map": "/bonobono/static/js/main.617b571d.chunk.js.map",
+    "runtime-main.js": "/bonobono/static/js/runtime-main.466fa1fb.js",
+    "runtime-main.js.map": "/bonobono/static/js/runtime-main.466fa1fb.js.map",
+    "static/js/2.bd424ff0.chunk.js": "/bonobono/static/js/2.bd424ff0.chunk.js",
+    "static/js/2.bd424ff0.chunk.js.map": "/bonobono/static/js/2.bd424ff0.chunk.js.map",
+    "index.html": "/bonobono/index.html",
+    "precache-manifest.1bbcba007213c52b3078ee81f77bc124.js": "/bonobono/precache-manifest.1bbcba007213c52b3078ee81f77bc124.js",
+    "service-worker.js": "/bonobono/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/bonobono/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.bd424ff0.chunk.js.LICENSE.txt": "/bonobono/static/js/2.bd424ff0.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.466fa1fb.js",
+    "static/js/2.bd424ff0.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.617b571d.chunk.js"
+  ]
+}
