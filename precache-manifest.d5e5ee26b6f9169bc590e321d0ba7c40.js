@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e64b6927f6a13c439b1b42d12bf4fb2a",
+    "revision": "13f7a0d8d15acd31d77182146fc53d46",
     "url": "/bonobono/index.html"
   },
   {
-    "revision": "2ef656aaa0e1d48e55d1",
-    "url": "/bonobono/static/css/main.5f361e03.chunk.css"
+    "revision": "b01e6b95948a846b0086",
+    "url": "/bonobono/static/css/main.523f09c5.chunk.css"
   },
   {
     "revision": "8eef519f6e9d67245d24",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/bonobono/static/js/2.bd424ff0.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "2ef656aaa0e1d48e55d1",
+    "revision": "b01e6b95948a846b0086",
     "url": "/bonobono/static/js/main.617b571d.chunk.js"
   },
   {
