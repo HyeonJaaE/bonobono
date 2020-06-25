@@ -1,4 +1,6 @@
 import * as React from 'react';
+import Nav from "../Nav";
+import Githubinfo from "../Githubinfo";
 
 const Home = () => {
   let name: string;
@@ -6,8 +8,12 @@ const Home = () => {
   return(
     <div>
       <div>
+        <Nav name="good"/>
+        <Githubinfo/>
         <p>
           Hello {name}
+          <br/>
+
           dev test
           dev test
         </p>
