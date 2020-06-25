@@ -1,4 +1,3 @@
-
 const initialState = {
     isAuthenticated: false,
     user: {},
@@ -10,7 +9,7 @@ export default (state = initialState, action : any) => {
         case "SET_CURRENT_USER":
             return {
                 ...state,
-                isAuthenticated: !(action.payload),
+                isAuthenticated: true,
                 user: action.payload,
             };
         default:

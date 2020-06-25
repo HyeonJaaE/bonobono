@@ -1,13 +1,13 @@
 import * as React from 'react';
 
 type navTypes = {
-    name: string
+    navProp: string
 }
 
-const Nav = ({name} : navTypes) => {
+const Nav = ({navProp} : navTypes) => {
     return(
         <div>
-            {name}
+            {navProp}
         </div>
     )
 }

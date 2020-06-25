@@ -1,0 +1,16 @@
+@keyframes moveing {
+    0%   { left:0px; top:0px;}
+    25%  { left:50%; top:0px;}
+    50%  { left:50%; top:50%;}
+    75%  { left:0px; top:50%;}
+    100% { left:0px; top:0px;}
+  }
+
+.bonobono {
+    opacity: 0.3;
+    z-index: -1;
+    position: absolute;
+    animation-name: moveing;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
