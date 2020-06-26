@@ -1,7 +1,10 @@
 // set logged in user
-export const setCurrentUser = (user:any) => {
-    return {
-        type: "SET_CURRENT_USER",
-        payload: user,
-    };
-};
+
+export type AuthTypes = ReturnType<typeof setCurrentUser>;
+
+export const SET_USER = "SET_CURRENT_USER" as const;
+
+export const setCurrentUser = (user: any) => ({
+    type: SET_USER,
+    payload: user,
+});

@@ -1,12 +1,18 @@
-const initialState = {
-    isAuthenticated: false,
-    user: {},
-    loading: false,
+import { AuthTypes, SET_USER } from "../actions/authAction";
+
+type AuthState = {
+    isAuthenticated: boolean;
+    user: object;
 };
 
-export default (state = initialState, action : any) => {
+const initialState: AuthState = {
+    isAuthenticated: false,
+    user: {},
+};
+
+export default (state = initialState, action: AuthTypes) => {
     switch (action.type) {
-        case "SET_CURRENT_USER":
+        case SET_USER:
             return {
                 ...state,
                 isAuthenticated: true,
@@ -16,8 +22,3 @@ export default (state = initialState, action : any) => {
             return state;
     }
 };
-
-// 리듀서에서 함수 ( state, action )을 export
-// XXXaction.js 에서 dispatch( e ) 함수 사용, e 가 action으로 전달
-// e { type: XXX, payload: XXX}
-// 리듀서에서 받은 e에 따라서 스토어에 정보 저장, 갱신
