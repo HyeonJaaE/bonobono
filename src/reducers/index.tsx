@@ -1,8 +1,13 @@
 import { combineReducers } from "redux";
 import authReducer from "../reducers/authReducers";
 import errorReducer from "../reducers/errorReducers";
+import countReducer from "./counterReducers";
 
-export default combineReducers({
+const rootReducer = combineReducers({
     auth: authReducer,
-    errors: errorReducer
+    counter: countReducer,
+    errors: errorReducer,
 });
+export default rootReducer;
+
+export type RootState = ReturnType<typeof rootReducer>;
