@@ -5,6 +5,7 @@ import { RootState } from "../../reducers";
 
 const Counter = () => {
     const cnt = useSelector((state: RootState) => state.counter);
+    const [diff, setDiff] = useState(0);
     const dispatch = useDispatch();
     return (
         <div>
@@ -13,7 +14,17 @@ const Counter = () => {
                 <br />
                 <input type="button" value="+1" onClick={() => dispatch(increase())}></input>
                 <input type="button" value="-1" onClick={() => dispatch(decrease())}></input>
-                <input type="button" value="+5" onClick={() => dispatch(increaseBy(5))}></input>
+                <input
+                    type="number"
+                    onChange={(e) => {
+                        setDiff(Number(e.target.value));
+                    }}
+                ></input>
+                <input
+                    type="button"
+                    value={"+" + diff}
+                    onClick={() => dispatch(increaseBy(diff))}
+                ></input>
                 <hr />
                 Number : {cnt ? cnt.count : "bad"}
             </div>

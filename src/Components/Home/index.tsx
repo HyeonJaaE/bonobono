@@ -13,9 +13,7 @@ const Home = () => {
             <img className="bonobono" src={process.env.PUBLIC_URL + "/bonobono.jpg"}></img>
             <div className="foo">
                 <Nav navProp="This is navigation" />
-
                 <h1>Hello {auth.isAuthenticated ? auth.user.login : ""}</h1>
-
                 <Githubinfo />
                 <Counter />
             </div>
