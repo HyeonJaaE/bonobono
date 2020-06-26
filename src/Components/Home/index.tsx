@@ -10,8 +10,7 @@ const Home = () => {
     const auth = useSelector((state: any) => state.auth);
     return (
         <div>
-            <img src="./bonobono.jpg" />
-            <img className="bonobono" src="./bonobono.jpg"></img>
+            <img className="bonobono" src={process.env.PUBLIC_URL + "/bonobono.jpg"}></img>
             <div className="foo">
                 <Nav navProp="This is navigation" />
 
