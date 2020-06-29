@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/bonobono/static/css/main.a3a9b3d1.chunk.css",
-    "main.js": "/bonobono/static/js/main.f75c3b76.chunk.js",
-    "main.js.map": "/bonobono/static/js/main.f75c3b76.chunk.js.map",
+    "main.css": "/bonobono/static/css/main.63aeee0c.chunk.css",
+    "main.js": "/bonobono/static/js/main.f807a352.chunk.js",
+    "main.js.map": "/bonobono/static/js/main.f807a352.chunk.js.map",
     "runtime-main.js": "/bonobono/static/js/runtime-main.466fa1fb.js",
     "runtime-main.js.map": "/bonobono/static/js/runtime-main.466fa1fb.js.map",
-    "static/js/2.958ce2cb.chunk.js": "/bonobono/static/js/2.958ce2cb.chunk.js",
-    "static/js/2.958ce2cb.chunk.js.map": "/bonobono/static/js/2.958ce2cb.chunk.js.map",
+    "static/js/2.9aaec6cc.chunk.js": "/bonobono/static/js/2.9aaec6cc.chunk.js",
+    "static/js/2.9aaec6cc.chunk.js.map": "/bonobono/static/js/2.9aaec6cc.chunk.js.map",
     "index.html": "/bonobono/index.html",
-    "precache-manifest.b4ba6bfd169984b996713217a1c47479.js": "/bonobono/precache-manifest.b4ba6bfd169984b996713217a1c47479.js",
+    "precache-manifest.6cd883657a8c01743cda835191b7a421.js": "/bonobono/precache-manifest.6cd883657a8c01743cda835191b7a421.js",
     "service-worker.js": "/bonobono/service-worker.js",
-    "static/css/main.a3a9b3d1.chunk.css.map": "/bonobono/static/css/main.a3a9b3d1.chunk.css.map",
-    "static/js/2.958ce2cb.chunk.js.LICENSE.txt": "/bonobono/static/js/2.958ce2cb.chunk.js.LICENSE.txt"
+    "static/css/main.63aeee0c.chunk.css.map": "/bonobono/static/css/main.63aeee0c.chunk.css.map",
+    "static/js/2.9aaec6cc.chunk.js.LICENSE.txt": "/bonobono/static/js/2.9aaec6cc.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.466fa1fb.js",
-    "static/js/2.958ce2cb.chunk.js",
-    "static/css/main.a3a9b3d1.chunk.css",
-    "static/js/main.f75c3b76.chunk.js"
+    "static/js/2.9aaec6cc.chunk.js",
+    "static/css/main.63aeee0c.chunk.css",
+    "static/js/main.f807a352.chunk.js"
   ]
 }
