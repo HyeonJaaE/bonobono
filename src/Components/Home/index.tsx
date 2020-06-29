@@ -5,6 +5,7 @@ import "./home.scss";
 import Nav from "../Nav";
 import Githubinfo from "../Githubinfo";
 import Counter from "../Counter";
+import RockSiccorsPaper from "../RockSiccorsPaper";
 
 const Home = () => {
     const auth = useSelector((state: any) => state.auth);
@@ -16,6 +17,7 @@ const Home = () => {
                 <h1>Hello {auth.isAuthenticated ? auth.user.login : ""}</h1>
                 <Githubinfo />
                 <Counter />
+                <RockSiccorsPaper />
             </div>
         </div>
     );
