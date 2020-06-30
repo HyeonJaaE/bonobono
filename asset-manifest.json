@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/bonobono/static/css/main.9f926130.chunk.css",
-    "main.js": "/bonobono/static/js/main.a7c6bf57.chunk.js",
-    "main.js.map": "/bonobono/static/js/main.a7c6bf57.chunk.js.map",
+    "main.js": "/bonobono/static/js/main.09d85282.chunk.js",
+    "main.js.map": "/bonobono/static/js/main.09d85282.chunk.js.map",
     "runtime-main.js": "/bonobono/static/js/runtime-main.466fa1fb.js",
     "runtime-main.js.map": "/bonobono/static/js/runtime-main.466fa1fb.js.map",
     "static/js/2.9aaec6cc.chunk.js": "/bonobono/static/js/2.9aaec6cc.chunk.js",
     "static/js/2.9aaec6cc.chunk.js.map": "/bonobono/static/js/2.9aaec6cc.chunk.js.map",
     "index.html": "/bonobono/index.html",
-    "precache-manifest.900fefb9833d93984302b8a0af80cc93.js": "/bonobono/precache-manifest.900fefb9833d93984302b8a0af80cc93.js",
+    "precache-manifest.e048001da5fa270c3d877cc6239f2194.js": "/bonobono/precache-manifest.e048001da5fa270c3d877cc6239f2194.js",
     "service-worker.js": "/bonobono/service-worker.js",
     "static/css/main.9f926130.chunk.css.map": "/bonobono/static/css/main.9f926130.chunk.css.map",
     "static/js/2.9aaec6cc.chunk.js.LICENSE.txt": "/bonobono/static/js/2.9aaec6cc.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.466fa1fb.js",
     "static/js/2.9aaec6cc.chunk.js",
     "static/css/main.9f926130.chunk.css",
-    "static/js/main.a7c6bf57.chunk.js"
+    "static/js/main.09d85282.chunk.js"
   ]
 }
