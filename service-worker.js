@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/bonobono/precache-manifest.5b7b311d0fbd645e1d2f8fc7625df943.js"
+  "/bonobono/precache-manifest.900fefb9833d93984302b8a0af80cc93.js"
 );
 
 self.addEventListener('message', (event) => {
